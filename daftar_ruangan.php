@@ -55,7 +55,7 @@ if ($conn->connect_error) {
                         <a href="#" class="block py-2 px-3 text-black rounded-none text-white border-b-[2px] border-white text-[30px] md:p-0 " id="daftar_ruangan">Daftar Ruangan</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-black rounded hover:text-white text-[30px] md:p-0" id="daftar_peminjaman">Daftar Pesan</a>
+                        <a href="#" class="block py-2 px-3 text-black rounded-none hover:text-white text-[30px] md:p-0" id="daftar_peminjaman">Daftar Pesan</a>
                     </li>
                     <li>
                         <a href="#" class="block py-2 px-3 text-black rounded-none hover:text-white text-[30px] md:p-0" id="daftar_peminjaman">Input Peminjaman</a>
