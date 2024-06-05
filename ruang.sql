@@ -55,7 +55,7 @@ VALUES
 ('BMPS', 'Basement PS', '50', 'S2', 'G'),
 ('SLSPS6', 'Selasar Lt 6 PS', '100', 'S2', '6'),
 ('SLSPS7', 'Selasar Lt 7 PS', '50', 'S2', '7'),
-('TMNMS', 'Taman Depan Mushollah', '25', 'Mushollah', '1'),
+('TMNMS', 'Taman Depan Mushollah', '25', 'D4', '1'),
 ('AMPT', 'Taman Keong/Ampiteater', '150', 'D3', '1'),
 ('TMNSPE', 'Taman SPE', '100', 'D3', '1'),
 ('HH-101', 'Teater D3', '150', 'D3', '1'),

@@ -2,7 +2,7 @@
 $servername = "localhost"; // Ganti dengan nama server Anda jika berbeda
 $username = "root"; // Ganti dengan username MySQL Anda
 $password = ""; // Ganti dengan password MySQL Anda
-$dbname = "els"; // Ganti dengan nama database Anda
+$dbname = "ruang"; // Ganti dengan nama database Anda
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -21,7 +21,7 @@ if ($conn->connect_error) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Ruangan</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet"/>
 
 </head>
 <style>
@@ -68,29 +68,8 @@ if ($conn->connect_error) {
     <!-- Main Content -->
     <div class="flex justify-center">
         <div class="flex h-full w-[1800px] mt-[40px] p-2 bg-white  dark:bg-white border border-black rounded-none shadow">
-            <!-- Dropdown -->
-            <!-- <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-black bg-[#F6995C] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center" type="button">Tipe Ruangan <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                </svg>
-            </button> -->
-            <!-- Dropdown menu -->
-            <!-- <div id="dropdown" class="z-10 hidden bg-white divide-y divide-black rounded-lg shadow w-44 bg-[#F6995C]">
-                <ul class="py-2 text-sm text-black" aria-labelledby="dropdownDefaultButton">
-                    <li>
-                        <a href="#" class="block px-4 py-2">Kelas</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-4 py-2">Non Kelas</a>
-                    </li>
-                </ul>
-            </div> -->
-
-            
-
-
             <!-- Accordion -->
-            <div id="accordion-collapse" data-accordion="collapse" data-active-classes="bg-[#EEEEEE] dark:bg-[#EEEEEE] text-black" class="containter flex flex-col place-content-center">
-
+            <div id="accordion-collapse" data-accordion="collapse" data-active-classes="bg-[#EEEEEE] dark:bg-[#EEEEEE] text-black" class="containter flex flex-col place-content-center mx-auto">
                 <?php           
                     // Array untuk menyimpan nama-nama gedung yang unik
                     $gedung_names = array();
